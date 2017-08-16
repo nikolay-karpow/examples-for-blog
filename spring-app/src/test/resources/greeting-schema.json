@@ -1,0 +1,26 @@
+{
+  "type": "object",
+  "required": [
+    "from",
+    "msg"
+  ],
+  "properties": {
+    "from": {
+      "type": "object",
+      "required": [
+        "name"
+      ],
+      "properties": {
+        "name": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "msg" : {
+      "type": "string"
+    }
+  },
+  "additionalProperties": false
+}
+
